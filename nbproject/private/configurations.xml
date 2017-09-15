@@ -4,7 +4,7 @@
     <df root="." name="0">
       <df name="build">
         <df name="CMakeFiles">
-          <df name="3.9.1">
+          <df name="3.9.2">
             <df name="CompilerIdC">
               <df name="tmp">
               </df>
@@ -18,21 +18,34 @@
           </df>
           <df name="CMakeTmp">
           </df>
+          <df name="Progress">
+          </df>
           <df name="TratamentoDePoligonos.dir">
+            <df name="point">
+            </df>
+            <df name="Test">
+            </df>
           </df>
           <in>feature_tests.c</in>
           <in>feature_tests.cxx</in>
         </df>
       </df>
-      <df name="poligono">
+      <df name="point">
+        <in>Point.cpp</in>
+        <in>Point.h</in>
       </df>
-      <df name="ponto">
+      <df name="poligono">
+        <in>poligono.cpp</in>
+        <in>poligono.h</in>
       </df>
       <df name="retangulo">
       </df>
+      <df name="Test">
+        <in>test.cpp</in>
+        <in>test.h</in>
+      </df>
       <in>main.cpp</in>
       <in>test.cpp</in>
-      <in>test.h</in>
     </df>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>

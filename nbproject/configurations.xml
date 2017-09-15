@@ -2,6 +2,12 @@
 <configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
+      <df name="point">
+        <in>Point.cpp</in>
+      </df>
+      <df name="Test">
+        <in>test.cpp</in>
+      </df>
       <in>main.cpp</in>
       <in>test.cpp</in>
     </df>
@@ -39,15 +45,12 @@
           <executablePath></executablePath>
           <ccTool>
             <incDir>
-              <pElem>ponto</pElem>
+              <pElem>point</pElem>
               <pElem>poligono</pElem>
               <pElem>retangulo</pElem>
-              <pElem>build</pElem>
             </incDir>
             <preprocessorList>
               <Elem>BUILD_SHARED_LIBS=OFF</Elem>
-              <Elem>MAX_EXT_API_CONNECTIONS=255</Elem>
-              <Elem>NON_MATLAB_PARSING</Elem>
             </preprocessorList>
           </ccTool>
         </makeTool>
@@ -57,12 +60,43 @@
           <preBuildFirst>true</preBuildFirst>
         </preBuild>
       </makefileType>
+      <item path="Test/test.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <folder path="0/Test">
+        <ccTool>
+          <incDir>
+            <pElem>Test</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/point">
+        <ccTool>
+          <incDir>
+            <pElem>Test</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
       <item path="main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>Test</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="point/Point.cpp" ex="false" tool="1" flavor2="8">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="test.cpp" ex="false" tool="1" flavor2="8">
         <ccTool flags="0">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
         </ccTool>
       </item>
     </conf>
