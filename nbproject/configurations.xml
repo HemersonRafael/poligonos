@@ -5,6 +5,9 @@
       <df name="point">
         <in>Point.cpp</in>
       </df>
+      <df name="poligono">
+        <in>poligono.cpp</in>
+      </df>
       <df name="Test">
         <in>test.cpp</in>
       </df>
@@ -80,6 +83,14 @@
           </incDir>
         </ccTool>
       </folder>
+      <folder path="0/poligono">
+        <ccTool>
+          <incDir>
+            <pElem>Test</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
       <item path="main.cpp" ex="false" tool="1" flavor2="8">
         <ccTool flags="0">
           <incDir>
@@ -89,6 +100,10 @@
         </ccTool>
       </item>
       <item path="point/Point.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="poligono/poligono.cpp" ex="false" tool="1" flavor2="8">
         <ccTool flags="0">
         </ccTool>
       </item>

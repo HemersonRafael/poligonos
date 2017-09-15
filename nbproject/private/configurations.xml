@@ -23,6 +23,8 @@
           <df name="TratamentoDePoligonos.dir">
             <df name="point">
             </df>
+            <df name="poligono">
+            </df>
             <df name="Test">
             </df>
           </df>

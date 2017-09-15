@@ -11,11 +11,13 @@ ENDIF(CMAKE_COMPILER_IS_GNUCC)
 set(SOURCES
    point/Point.cpp
    Test/test.cpp
+   poligono/poligono.cpp
 )
 
 set(HEADERS
     point/Point.h
     Test/test.h
+    poligono/poligono.h
 )
 include_directories("point/")
 include_directories("poligono/")

@@ -17,8 +17,9 @@ public:
     void sub(Point p1);
     void setXY(float x,float y);
     float norma();
-    void translada(float x, float y);
+    void translade(float x, float y);
     void imprime();
+    
 
 private:
     float x;

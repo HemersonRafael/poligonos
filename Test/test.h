@@ -1,36 +1,30 @@
 #ifndef TEST_H
 
-#include <Point.h>
-
 #define TEST_H
 
-#define MAX 100
+#include <poligono.h>
 
-class Poligono : public Point {
+class Retangulo : public Poligono {
 public:
-        
+    Retangulo(float _x =0, float _y =0, float largura = 1, float altura =1);
     
-    void setAresta( Point a, Point b);
+   void printTheStruct();
+   
     
     
-     
-
-     
-
+    
+    
+    
+    
+    
 private:
 
-        Point vertice[MAX];
-        int contVertice;
-        
-   
-
-
-
+   float largura;
+   float altura;
+            
 
 
 };
-
-
 
 
 #endif // TEST_H

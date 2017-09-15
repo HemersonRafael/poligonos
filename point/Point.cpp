@@ -59,7 +59,7 @@ float Point::norma(){
 }
 
 
-void Point::translada(float _x, float _y){
+void Point::translade(float _x, float _y){
     x += _x;
     y += _y;
 }
