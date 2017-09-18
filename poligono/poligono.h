@@ -6,7 +6,7 @@
 
 #define MAX 100
 
-class Poligono : public Point {
+class Poligono {
 public:
         
     Poligono();

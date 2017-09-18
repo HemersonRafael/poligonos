@@ -8,7 +8,7 @@ class Retangulo : public Poligono {
 public:
     Retangulo(float _x =0, float _y =0, float largura = 1, float altura =1);
     
-   void printTheStruct();
+   
    
     
     

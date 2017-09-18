@@ -31,10 +31,15 @@ int main() {
    
     teste.translade(2,2);
     
-    
    // teste.setDebug(true);
     
-    teste.printTheStruct();
+    
+    teste.rotate(45);
+    
+    teste.print();
+    
+   
+    
    
    
    
