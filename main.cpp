@@ -1,7 +1,7 @@
 #include <Point.h>
 #include <poligono.h>
 #include <test.h>
-//#include <retangulo.h>
+#include <Retangulo.h>
 #include <iostream>
 
 using namespace std;
@@ -28,24 +28,17 @@ int main() {
    
     
     Retangulo teste (0,0,5,5);
-   
-    teste.translade(2,2);
+          
+    teste.translade(2,3);
+    
+    cout << teste.area() <<endl;
     
    // teste.setDebug(true);
     
-    
-    teste.rotate(45);
-    
     teste.print();
     
+    teste.rotate(10);
    
-    
-   
-   
-   
-   
-    
-      
-    
-    
+     cout <<endl << teste.area() <<endl;
+  
 }

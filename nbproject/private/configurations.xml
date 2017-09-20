@@ -39,6 +39,7 @@
         <in>poligono.h</in>
       </df>
       <df name="retangulo">
+        <in>Retangulo.h</in>
       </df>
       <df name="Test">
         <in>test.cpp</in>

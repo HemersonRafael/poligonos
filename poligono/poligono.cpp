@@ -37,13 +37,17 @@ float Poligono::degreesToRadians(float theta){
 }
 
 void Poligono::rotate(float theta){
+    float x1;
+    float y1;
     
     theta = degreesToRadians(theta);
+
     
     for(int i =0; i< contVertice; i++){
-        float x1 = vertice[i].getX()*cos(theta) - vertice[i].getY()*sin(theta);
-        float y1 = vertice[i].getX()*sin(theta) + vertice[i].getY()*cos(theta);
-        vertice[i].translade(x1,y1);
+         x1 = vertice[i].getX()*cos(theta) + vertice[i].getY()*sin(theta);
+         y1 = vertice[i].getY()*cos(theta) - vertice[i].getX()*sin(theta);
+ 
+        vertice[i].setXY(x1,y1);
     }
     
     

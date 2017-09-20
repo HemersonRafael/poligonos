@@ -12,17 +12,20 @@ set(SOURCES
    point/Point.cpp
    Test/test.cpp
    poligono/poligono.cpp
+
 )
 
 set(HEADERS
     point/Point.h
     Test/test.h
     poligono/poligono.h
+    retangulo/Retangulo.h
 )
 include_directories("point/")
 include_directories("poligono/")
 include_directories("retangulo/")
 include_directories("Test/")
+include_directories("retangulo/")
 
 find_package (Threads)
 

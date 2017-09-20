@@ -8,6 +8,9 @@
       <df name="poligono">
         <in>poligono.cpp</in>
       </df>
+      <df name="retangulo">
+        <in>Retangulo.h</in>
+      </df>
       <df name="Test">
         <in>test.cpp</in>
       </df>
@@ -106,6 +109,8 @@
       <item path="poligono/poligono.cpp" ex="false" tool="1" flavor2="8">
         <ccTool flags="0">
         </ccTool>
+      </item>
+      <item path="retangulo/Retangulo.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="test.cpp" ex="false" tool="1" flavor2="8">
         <ccTool flags="0">
