@@ -1,7 +1,0 @@
-/home/samuel/Documentos/Repositories/poligonos/build/CMakeFiles/install/strip.dir
-/home/samuel/Documentos/Repositories/poligonos/build/CMakeFiles/edit_cache.dir
-/home/samuel/Documentos/Repositories/poligonos/build/CMakeFiles/TratamentoDePoligonos.dir
-/home/samuel/Documentos/Repositories/poligonos/build/CMakeFiles/list_install_components.dir
-/home/samuel/Documentos/Repositories/poligonos/build/CMakeFiles/install/local.dir
-/home/samuel/Documentos/Repositories/poligonos/build/CMakeFiles/rebuild_cache.dir
-/home/samuel/Documentos/Repositories/poligonos/build/CMakeFiles/install.dir
