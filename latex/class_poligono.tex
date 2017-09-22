@@ -1,0 +1,48 @@
+\hypertarget{class_poligono}{}\section{Referência da Classe Poligono}
+\label{class_poligono}\index{Poligono@{Poligono}}
+
+
+{\ttfamily \#include $<$poligono.\+h$>$}
+
+
+
+Diagrama de Hierarquia para Poligono\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=141pt]{class_poligono__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_poligono_a9311a9a1496878c09c8508b3636e2870}{Poligono} ()\hypertarget{class_poligono_a9311a9a1496878c09c8508b3636e2870}{}\label{class_poligono_a9311a9a1496878c09c8508b3636e2870}
+
+\begin{DoxyCompactList}\small\item\em Inicializa o número de vertices com zero. \end{DoxyCompactList}\item 
+void \hyperlink{class_poligono_a0784e2fb0149f6923a42bfabfb073719}{set\+Vertice} (float \+\_\+x, float \+\_\+y)\hypertarget{class_poligono_a0784e2fb0149f6923a42bfabfb073719}{}\label{class_poligono_a0784e2fb0149f6923a42bfabfb073719}
+
+\begin{DoxyCompactList}\small\item\em Definir um vertice do polígono. Assumindo que os vértices deverão ser inseridos conforme a sequência (anti-\/horária) em que figuram ao redor do polígono. As arestas do polígono serão então compostas pelos segmentos $(x_0,y_0)→(x_1,y_1)$, $(x_1,y_1)→(x_2,y_2)$ etc., com exceção da última aresta, que será formada pelo segmento $(x_{N−1},y_{N−1})→(x_0,y_0)..$. \end{DoxyCompactList}\item 
+float \hyperlink{class_poligono_a1ae7255db591e28a3a35293210033811}{get\+Cont\+Vertices} ()\hypertarget{class_poligono_a1ae7255db591e28a3a35293210033811}{}\label{class_poligono_a1ae7255db591e28a3a35293210033811}
+
+\begin{DoxyCompactList}\small\item\em Retorna o número de vertices inseridos. \end{DoxyCompactList}\item 
+float \hyperlink{class_poligono_a7f66c446f86c19118663ef1b2c8a4be6}{area} ()\hypertarget{class_poligono_a7f66c446f86c19118663ef1b2c8a4be6}{}\label{class_poligono_a7f66c446f86c19118663ef1b2c8a4be6}
+
+\begin{DoxyCompactList}\small\item\em Retorna o cálculo da área do polígono armazenado. \end{DoxyCompactList}\item 
+void \hyperlink{class_poligono_aafacd43b0918e0765fbb42d9aad5bb35}{translada} (float \+\_\+a, float \+\_\+b)\hypertarget{class_poligono_aafacd43b0918e0765fbb42d9aad5bb35}{}\label{class_poligono_aafacd43b0918e0765fbb42d9aad5bb35}
+
+\begin{DoxyCompactList}\small\item\em Translada o polígono armazenado. \end{DoxyCompactList}\item 
+void \hyperlink{class_poligono_adaee71aa07241ba4e7f751a01163738a}{rotacionar} (float angulo)\hypertarget{class_poligono_adaee71aa07241ba4e7f751a01163738a}{}\label{class_poligono_adaee71aa07241ba4e7f751a01163738a}
+
+\begin{DoxyCompactList}\small\item\em Rotaciona o polígono armazenado. \end{DoxyCompactList}\item 
+void \hyperlink{class_poligono_ac22d76a087d08ea82627be416404ae15}{print} ()\hypertarget{class_poligono_ac22d76a087d08ea82627be416404ae15}{}\label{class_poligono_ac22d76a087d08ea82627be416404ae15}
+
+\begin{DoxyCompactList}\small\item\em Imprimir a estrutura do polígino armazenado na forma $(x_0,y_0)→(x_1,y_1)→(x_2,y_2)→…$. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+A classe Polígono foi criada para realizar o tratamento de polígonos. 
+
+A documentação para esta classe foi gerada a partir dos seguintes arquivos\+:\begin{DoxyCompactItemize}
+\item 
+poligono.\+h\item 
+poligono.\+cpp\end{DoxyCompactItemize}
