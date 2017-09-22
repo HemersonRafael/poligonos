@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -std=c++0x -DBUILD_SHARED_LIBS=OFF  -rdynamic CMakeFiles/TratamentoDePoligonos.dir/main.cpp.o CMakeFiles/TratamentoDePoligonos.dir/point/Point.cpp.o CMakeFiles/TratamentoDePoligonos.dir/Test/test.cpp.o CMakeFiles/TratamentoDePoligonos.dir/poligono/poligono.cpp.o  -o TratamentoDePoligonos -lpthread 
