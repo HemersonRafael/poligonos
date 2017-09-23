@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "Tratamento de polígonos", "index.html", [
-    [ "poligonosQt", "md_README.html", null ],
+    [ "Projeto 1 - Tratamento de polígono", "md_README.html", null ],
     [ "Classes", "annotated.html", [
       [ "Lista de Componentes", "annotated.html", "annotated_dup" ],
       [ "Índice dos Componentes", "classes.html", null ],
