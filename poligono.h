@@ -21,7 +21,7 @@ public:
     float area();
     //! Translada o polígono armazenado.
     void translada(float _a, float _b);
-    //! Rotaciona o polígono armazenado, a partir do angulo em graus passado para parâmento.
+    //! Rotaciona o polígono armazenado, a partir do ângulo em graus passado para parâmento.
     void rotacionar(float angulo);
     //!Imprimir a estrutura do polígino armazenado na forma \f$(x_0,y_0)→(x_1,y_1)→(x_2,y_2)→…\f$
     void print();
