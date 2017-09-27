@@ -10,8 +10,10 @@ Poligono::Poligono(){
 }
 
 void Poligono::setVertice(float _x, float _y){
-    vertices[contVertices].setXY(_x,_y);
-    contVertices++;
+    if(contVertices <100){
+        vertices[contVertices].setXY(_x,_y);
+        contVertices++;
+    }
 }
 
 float Poligono::getContVertices(){
