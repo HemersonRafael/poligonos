@@ -6,6 +6,8 @@
  */
 
 class Retangulo: public Poligono{
+private:
+    float x, y, largura, altura;
 public:
     //! Inicializa a posição \f$(x,y)\f$ e dimensões largura e altura do retangulo, caso os dados não forem informados assumiram o valor zero.
     Retangulo(float _x=0, float _y=0, float _largura=0, float _altura=0);
